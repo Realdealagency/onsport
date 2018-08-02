@@ -204,7 +204,7 @@ android {
             }
         }
     }
-    /*
+
 
     ELSE NOTHING! DON'T MESS WITH THE VERSION CODE IF YOU DON'T HAVE TO!
 
@@ -219,7 +219,7 @@ android {
         defaultConfig.versionCode += 8
       }
     }
-    */
+   
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_6
