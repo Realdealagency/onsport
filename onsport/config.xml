@@ -54,7 +54,7 @@ onsport
   <icon src="res/ios/icon-50@2x.png" width="100" height="100" />
 </platform>
     <engine name="android" spec="^6.3.0" />
-    <preference name="android-minSdkVersion" value="15" />
+    <preference name="android-minSdkVersion" value="26" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-admob-simple" spec="^3.3.4" />
     <engine name="ios" spec="~4.5.4" />
