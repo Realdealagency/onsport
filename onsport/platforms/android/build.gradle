@@ -154,6 +154,7 @@ task cdvPrintProps << {
 }
 
 android {
+    
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -215,7 +216,7 @@ android {
       // 20 is Lollipop, which is the lowest API level for the updatable system webview.
       if (minSdkVersion >= 20) {
         defaultConfig.versionCode += 9
-      } else if (minSdkVersion >= 25) {
+      } else if (minSdkVersion >= 14) {
         defaultConfig.versionCode += 8
       }
     }
@@ -246,6 +247,7 @@ android {
     if (cdvDebugSigningPropertiesFile) {
         addSigningProps(cdvDebugSigningPropertiesFile, signingConfigs.debug)
     }
+       useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
