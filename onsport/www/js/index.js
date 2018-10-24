@@ -32,7 +32,7 @@ var app = {
 	//admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
 
  //inAppBrowserbRef = cordova.InAppBrowser.open('https://electrostar.ovplatform.tk', '_self', 'location=no,toolbar=no');
-     	var   inAppBrowserbRef = cordova.InAppBrowser.open('http://games.realdeal.com.eg/?i=287', '_self', 'location=no,toolbar=no','clearcache=yes','clearsessioncache=yes','zoom=no','hardwareback=no');
+     	var   inAppBrowserbRef = cordova.InAppBrowser.open('http://games.realdeal.com.eg/?i=9', '_self', 'location=no,toolbar=no','clearcache=yes','clearsessioncache=yes','zoom=no','hardwareback=no');
         /*inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
         inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
         inAppBrowserbRef.addEventListener('loaderror', inAppBrowserbLoadError);
@@ -67,8 +67,8 @@ function initAd(){
                     interstitial: 'ca-app-pub-xxxxxxxxxxx/xxxxxxxxxxx'	//PUT ADMOB ADCODE HERE 
                 },
                 android : {
-                    banner: 'ca-app-pub-5602387816569419/9392118259',		//PUT ADMOB ADCODE HERE 
-                    interstitial: 'ca-app-pub-5602387816569419/1956481368'	//PUT ADMOB ADCODE HERE 
+                    banner: 'ca-app-pub-5602387816569419/1946062448',		//PUT ADMOB ADCODE HERE 
+                    interstitial: 'ca-app-pub-5602387816569419/1371347377'	//PUT ADMOB ADCODE HERE 
                 }
             };
             var admobid = ( /(android)/i.test(navigator.userAgent) ) ? ad_units.android : ad_units.ios;
