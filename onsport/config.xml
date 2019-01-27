@@ -2,14 +2,14 @@
 <widget id="com.realdealagency.felalaland" version="1.1.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 
     <name> 
-فى ال لالا لاند
+كفر دلهاب
     </name>
     <description>
-فى ال لالا لاند
+كفر دلهاب
     </description>
     <author email="ceo@realdealagency.com" href="http://www.realdealagency.com">
  
-فى ال لالا لاند
+كفر دلهاب
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-inappbrowser" />
