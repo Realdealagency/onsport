@@ -32,7 +32,7 @@ var app = {
 	//admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
 
  //inAppBrowserbRef = cordova.InAppBrowser.open('https://electrostar.ovplatform.tk', '_self', 'location=no,toolbar=no');
-     	var   inAppBrowserbRef = cordova.InAppBrowser.open('https://ramadan.ovplatform.tk/Mosalsallat/my_eposide/177', '_self', 'location=no,toolbar=no','clearcache=yes','clearsessioncache=yes','zoom=no','hardwareback=no');
+     	var   inAppBrowserbRef = cordova.InAppBrowser.open('https://ramadan.ovplatform.tk/Mosalsallat/my_eposide/178', '_self', 'location=no,toolbar=no','clearcache=yes','clearsessioncache=yes','zoom=no','hardwareback=no');
         /*inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
         inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
         inAppBrowserbRef.addEventListener('loaderror', inAppBrowserbLoadError);
@@ -67,8 +67,8 @@ function initAd(){
                     interstitial: 'ca-app-pub-xxxxxxxxxxx/xxxxxxxxxxx'	//PUT ADMOB ADCODE HERE 
                 },
                 android : {
-                    banner: 'ca-app-pub-5602387816569419/6295546899',		//PUT ADMOB ADCODE HERE 
-                    interstitial: 'ca-app-pub-5602387816569419/4543605236'	//PUT ADMOB ADCODE HERE 
+                    banner: 'ca-app-pub-5602387816569419/2644146305',		//PUT ADMOB ADCODE HERE 
+                    interstitial: 'ca-app-pub-5602387816569419/6579769304'	//PUT ADMOB ADCODE HERE 
                 }
             };
             var admobid = ( /(android)/i.test(navigator.userAgent) ) ? ad_units.android : ad_units.ios;
